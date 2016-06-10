@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Maxfield Helper</string>
+    <string name="title_activity_main">Maxfield Helper</string>
+
+    <string name="stop_service">Stop Service</string>
+    <string name="start_service">Start Service</string>
+</resources>

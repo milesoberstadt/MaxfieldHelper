@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp" style="@style/Base.Theme.AppCompat.Dialog"
+    android:background="@color/colorPrimaryDark">
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/prevPortalButton"
+        android:src="@drawable/arrow"
+        android:scaleType="centerInside"
+        android:background="#00ffffff"
+        android:layout_alignParentLeft="true"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/portalText"
+        android:text="Test"
+        android:layout_toRightOf="@+id/prevPortalButton"
+        android:layout_toLeftOf="@+id/nextPortalButton"/>
+    
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/nextPortalButton"
+        android:src="@drawable/arrow"
+        android:scaleType="centerInside"
+        android:background="#00ffffff"
+        android:layout_alignParentRight="true"
+        android:rotation="180"/>
+</RelativeLayout>
